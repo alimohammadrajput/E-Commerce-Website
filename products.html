@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>All Products - RedStore</title>
+</head>
+
+<body>
+    <div class="product-body">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo Black.png"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html" class="white">Home</a></li>
+                        <li><a href="products.html" class="white">Products</a></li>
+                        <li><a href="index.html#about" class="white">About</a></li>
+                        <li><a href="" class="white">Contact</a></li>
+                        <li><a href="account.html" class="white">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+        <div class="small-container">
+            <div class="row row-2">
+                <h2 class="white">All Products</h2>
+                <select>
+                    <option>Default Sorting</option>
+                    <option>Sort By Price</option>
+                    <option>Sort by Popularity</option>
+                    <option>Sort By Ratting</option>
+                    <option>Sort By Sale</option>
+                </select>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <a href="1.html"><img src="images/Product/product-1.jpg"></a>
+                    <a href="1.html">
+                        <h4 class="white">Red Printed T-Shirt</h4>
+                    </a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="white">$99.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="2.html"><img src="images/Product/product-2.png"></a>
+                    <a href="2.html">
+                        <h4 class="white">Branded Shoes</h4>
+                    </a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="white">$10.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="3.html"><img src="images/Product/product-3.png"></a>
+                    <a href="3.html">
+                        <h4 class="white">Grey & Black Casual Trousers</h4>
+                    </a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="white">$30.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/Product/product-4.jpg">
+                    <h4 class="white">Branded Blue Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="white">$75.25</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/Product/product-5.jpg">
+                    <h4 class="white">Nike Shoes </h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="white">$25.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/Product/product-6.jpg">
+                    <h4 class="white">Designed Shirt (Black)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="white">$45.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/Product/product-7.jpg">
+                    <h4 class="white">Socks (All Color Avalible)</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="white">$3.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/Product/product-8.jpg">
+                    <h4 class="white">Branded Fosil Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="white">$75.25</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/Product/product-9.jpg">
+                    <h4 class="white">Simple Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="white">$5.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/Product/product-10.jpg">
+                    <h4 class="white">Jordan Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="white">$60.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/Product/product-11.jpg">
+                    <h4 class="white">Grey Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="white">$37.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/Product/product-12.jpg">
+                    <h4 class="white">Black Trousers</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="white">$32.00</p>
+                </div>
+            </div>
+            <div class="page-btn">
+                <span style="transition: 0.4s;">1</span>
+                <span style="transition: 0.4s;">2</span>
+                <span style="transition: 0.4s;">3</span>
+                <span style="transition: 0.4s;">4</span>
+                <span style="transition: 0.4s;">&#8594;</span>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App For Android and IOS Mobile Phones.</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png">
+                            <img src="images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo Black.png">
+                        <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the
+                            many.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Use-full Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post </li>
+                            <li>Return Policy</li>
+                            <li>Join Affliate</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="Copyright">Copyright 2026 - B-Stroke</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
